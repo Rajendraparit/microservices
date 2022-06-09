@@ -1,0 +1,60 @@
+Windows + R 
+Type mstsc 
+Remote Desktop connection 
+
+Give your VDI VM
+ITLINFOSYS\mrudula.m
+Connect 
+Pw 
+Change the location of the taskbar - right
+Search for Hyper V manager
+
+To create a switch (private)
+We will need an ISO image of the operating system
+We will create the hardware virtual machine
+
+Click on virtual switch manager
+Create any private, ext, int
+
+Search and run 
+
+\\10.123.125.243\ims\swshare\
+
+Stream artifacts
+SE
+IMS windows 
+Win_10 -> copy this folder 
+This PC 
+C drive 
+Paste it there 
+
+How to create a v image 
+Right hand side - New 
+New virtual machine option
+MyFirstswitcy
+Name: Windows 10
+Create a new folder in C drive : Windows 10 VM 
+Next >
+Gen 1 
+Next 
+2048
+Connection : My first switch 
+Install DVD option 
+Imagine ISO
+Browse windows 10 
+Select the image file and open 
+Next 
+Finish 
+Virtual machine has been created 
+
+Install the operating system 
+Right click on windows 10 - connect 
+Repeat the same - right click and connect 
+Windows Setup 
+Click Next 
+Install
+Accept the license 
+Next 
+Custom Option 
+Next 
+Installation will begin
