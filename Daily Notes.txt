@@ -1,0 +1,51 @@
+Language:
+----------
+		it is for communication with humans
+
+		hindi,telugu........english
+
+
+Programming Language:
+---------------------
+				communication with machine
+
+				James gosling,sun micro system ,oracle
+				POP       						OOP
+B,BCPL,COBOL,C...					C++,python,java,.net....
+													1992,1995 JDK 1.0 ....
+																JDK 11 
+
+			
+					1)Performance    inheritance,polymorphisam
+					2)Security			 abstraction,encapsulation
+
+									oop's /oop'l
+
+												java,python			WORA
+
+									1)Platform Independent  			.class  linux
+									2)Garbage Collection
+
+					java 
+			53 keywords --->lower case 				1010101010
+
+
+								Welcome.java --->computer ---> binary /0's 1's/byte code 
+			
+							compailation,execution,.java,.class,byte code,source code,jvm,compiler.... 
+				
+						compailation--->user language-->machine language--->compiler
+										source code to byte code 
+										.java  to .class 
+											javac filename.java
+
+						Execution	--->.class-->output --->JVM
+											java classname			
+
+					JDK--->JRE--->JVM
+														
+					welcomeToJava-camel case
+					WelcomeToJava-pascal case
+			
+
+Java:
