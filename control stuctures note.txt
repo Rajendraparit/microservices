@@ -1,0 +1,129 @@
+//Observe the output for different values of marks  
+class Tester {
+	public static void main(String[] args) {
+		int marks = 90;
+
+		if (marks < 50) {
+			System.out.println("Fail");
+		} else if (marks >= 50 && marks < 60) {
+			System.out.println("D grade");
+		} else if (marks >= 60 && marks < 70) {
+			System.out.println("C grade");
+		} else if (marks >= 70 && marks < 80) {
+			System.out.println("B grade");
+		} else if (marks >= 80 && marks < 90) {
+			System.out.println("A grade");
+		} else if (marks >= 90 && marks <= 100) {
+			System.out.println("A+ grade");
+		} else {
+			System.out.println("Invalid!");
+		}
+	}
+}
+
+
+
+
+//Observe how to obtain sum of all digits in a Number
+class Tester {
+	public static void main(String[] args) {
+		int inputNumber = 7865;     //Supply different inputs here
+		int sumOfDigits = 0;
+		int temp = 0;
+
+		while (inputNumber > 0) {
+			temp = inputNumber % 10;
+			sumOfDigits += temp;
+			inputNumber = inputNumber / 10;
+		}
+
+		System.out.println("Sum of digits are : " + sumOfDigits);
+	}
+}
+
+
+
+
+//Observe how to obtain sum of all digits in a Number
+class Tester {
+	public static void main(String[] args) {
+		int inputNumber = 9654;     //Supply different inputs here
+		int sumOfDigits = 0;
+		int temp = 0;
+
+		do {
+			temp = inputNumber % 10;
+			sumOfDigits += temp;
+			inputNumber = inputNumber / 10;
+		} while (inputNumber > 0);
+
+		System.out.println("Sum of digits : " + sumOfDigits);
+	}
+}
+
+
+
+
+class Customer {
+	public static void main(String[] args) {
+		// The below code generates customerId
+		int totalNoOfCustomers = 12;
+		String customerId = "";
+		for (int counter = 1; counter <= totalNoOfCustomers; counter++) {
+			if (counter <= 9)
+				customerId = "C0" + counter;
+			else
+				customerId = "C" + counter;
+			System.out.println("Customer Id for customer " + counter + " is "
+					+ customerId);
+		}
+		
+		// Uncomment the below given code and execute it instead of above for loop
+		// for understanding the usage of var in a for loop
+		/*
+		for (var counter = 1; counter <= totalNoOfCustomers; counter++) {
+			if (counter <= 9)
+				customerId = "C0" + counter;
+			else
+				customerId = "C" + counter;
+			System.out.println("Customer Id for customer " + counter + " is "
+					+ customerId);
+		}*/
+		
+		// The local variable used in the for loop is declared using var
+		// type of that variable will be inferred based on the value initialized
+	}
+}
+
+
+
+//Observe how to obtain sum of even numbers in an array
+class Tester {
+
+	public static void main(String[] args) {
+		int[] numbers = {68,79,86,99,23,2,41,100};
+		int sum=0;
+		
+		//for-each loop (Enhanced for Loop)
+		for(int number:numbers) {
+			if(number%2==0)
+				sum+=number;
+		}
+		
+		// Uncomment the below given code and execute it instead of above loop
+		// for understanding the usage of var in a for-each loop
+		/*
+		for(var number:numbers) {
+			if(number%2==0)
+				sum+=number;
+		}*/
+	
+		// The local variable used in the for-each loop is declared using var
+		// type of that variable will be inferred based on the values inside the array
+		
+		System.out.println("Sum of even numbers: "+sum);
+	}
+
+}
+
+
